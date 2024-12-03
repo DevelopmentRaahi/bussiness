@@ -871,7 +871,10 @@ footer,.footer-section{
   .af-box > div {
     position: relative;
   }
-  .af-box > div span{
+  .af-box >div > p span{
+    font-size: 1.6rem;
+  }
+  .af-box > div >span{
     /* position: relative;
     top: -0.5rem; */
     font-size: 0.9rem;
@@ -886,13 +889,43 @@ footer,.footer-section{
     font-family: Space Grotesk;
     font-weight: 500;
   }
-  .af-box > div:nth-of-type(2){
-    box-shadow: 0 0 15px #00000053;
+  .af-btns > a {
+    display: inline-block;
+    font-weight: 500; 
+    color: #1b1b1b;
+    font-family: Space Grotesk;
+    transition:  all 0.4s linear;
+    font-size: 1.3rem;
   }
- 
+  .af-btns > a:nth-of-type(1){
+    background-color: #d37400;
+    padding: 1rem 1.5rem;
+    border-radius: 100px;
+    margin-right: 10px;
+    color: #fff;
+  }
+    .af-btns > a:nth-of-type(1):hover{
+      scale: 1;
+      color: #fff;
+      background-color: #fc5a15;
+    }
+  .af-btns > a:nth-of-type(2){
+    font-size: 1.2rem;
+    font-weight: 600;
+  }
+   .af-btns + ul{
+    margin-top: 1.6rem;
+   }
+   .af-btns + ul li{
+    font-size: 1.3rem;
+    padding: 0.4rem 0;
+    color: #1b1b1b;
+    font-family: Space Grotesk;
+    font-weight: 500;
+   }
 
-
-
+  
+  
 @media  screen and (max-width: 1200px) {
   .cl-main h1{
     text-align: center;
@@ -936,7 +969,7 @@ footer,.footer-section{
   justify-content: space-between;
   color: #fff;  
   padding: 1.5rem;
-  height:250px;
+  height:280px;
   background-color: rgba(195, 195, 195, 0.092);
   border-radius: 5px;
   transition: all 0.4s linear;
@@ -947,7 +980,7 @@ footer,.footer-section{
 .cl-icons span i{
   display: inline-block;
   color: #fff;
-  font-size: 3.5rem;  
+  font-size: 3.5rem;   
 }
 .cl-icons p{
   color: #fff;
