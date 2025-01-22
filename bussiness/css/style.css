@@ -831,8 +831,14 @@ footer,.footer-section{
 /*=========================
  affordable price
  ==========================  */
-.grid-images h4, .price_end h4{
+.grid-images h4, .price_end h3{
   font-family: Space Grotesk;
+}
+.price_end h3{
+  font-size: 2.5rem;
+  font-weight: 500;
+  margin: 2rem 0;
+  text-align: center;
 }
 .price_end .accordion-button{
   font-size: 1.4rem !important;
@@ -977,7 +983,7 @@ footer,.footer-section{
   border-radius: 5px;
   transition: all 0.4s linear;
 } 
- .cl-icons h4{
+ .cl-icons h3{
   color: #fff;
 }
 .cl-icons span i{
@@ -1095,8 +1101,15 @@ footer,.footer-section{
   font-family:Space Grotesk ;
   margin-bottom: 1rem;  
 }
-.benefit-content h1{
+.benefit-content h5{
+  font-family: Space Grotesk;
+  font-size: 3.5rem;
   color: rgb(230, 226, 226);
+}
+.benefit-content h5 span{
+  font-size: 2.3rem;
+  font-weight: 300px;
+  /* color: #c0c0c0; */
 }
 .benefit-title p{
   font-weight: 500px;
@@ -1190,14 +1203,14 @@ footer,.footer-section{
   margin-bottom: 1.4rem;
   color: #37385f;
 }
-.sp-title h4{
+.sp-title h3{
   font-weight: 400px;
   font-size: 2.1rem;
   color: #4c4c6e;
   font-family:Space Grotesk ;
   margin-top: 1.7rem;
 }
-.sp-title h4 + p{
+.sp-title h3 + p{
   font-size: 1.3rem;
   color: #4c4c6e;
   margin: 1rem 0rem  ;
@@ -1230,7 +1243,7 @@ footer,.footer-section{
   color: #fff;
   font-family: Space Grotesk;
 }
-.pb-content h5, .pb-content h4{
+.pb-content h5, .pb-content h3{
  color: #fff;
  font-family: Space Grotesk;
 }
@@ -1240,7 +1253,7 @@ footer,.footer-section{
   margin-bottom: 1.8rem;
   color: #ffffffc1;
 }
-.pb-content h4{
+.pb-content h3{
   font-size: 2.9rem;
   font-weight: 400px;
   margin-bottom: 2rem;
@@ -1336,7 +1349,7 @@ footer,.footer-section{
   .cl-main h1{
     font-size: 5rem;
   }
-  .cl-icons h4{
+  .cl-icons h3{
     font-size: 2rem;
     margin-bottom: 1rem;
   }
@@ -1384,7 +1397,7 @@ footer,.footer-section{
   .sp-table table td{
     text-wrap: wrap;
   }
-  .cl-icons h4{
+  .cl-icons h3{
     font-size: 1.5rem;
   }
  
@@ -1417,7 +1430,7 @@ footer,.footer-section{
   .cl-main h1{
     font-size: 4rem;
   }
-  .cl-icons h4{
+  .cl-icons h3{
     font-size: 2rem;
   }
   .cl-icons p{
